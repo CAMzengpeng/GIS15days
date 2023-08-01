@@ -1,0 +1,139 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    img {
+        display: inline-block;
+    }
+    
+    h2 {
+        font-size: large;
+        text-align: center;
+    }
+    
+    h3 {
+        font-size: small;
+    }
+    
+    .makeup1 {
+        width: 250px;
+        height: 350px;
+        vertical-align: middle;
+        text-align: center;
+        /* border: 1px solid #000; */
+    }
+    
+    .makeup2 {
+        width: 250px;
+        height: 350px;
+        vertical-align: middle;
+        text-align: center;
+        /* border: 1px solid #000; */
+    }
+    
+    .makeup3 {
+        width: 250px;
+        height: 350px;
+        vertical-align: middle;
+        text-align: center;
+        /* border: 1px solid #000; */
+    }
+    
+    .makeup4 {
+        width: 300px;
+        height: 350px;
+        vertical-align: middle;
+        text-align: center;
+        /* border: 1px solid #000; */
+    }
+    
+    .head {
+        width: 100%;
+        height: 40%;
+    }
+    
+    .title {
+        text-align: center;
+    }
+    
+    .arrow {
+        margin-left: 480px;
+    }
+    
+    .makeup {
+        width: 100%;
+        height: 450px;
+        /* border: 1px solid red */
+    }
+    
+    .div1 {
+        display: inline-block;
+        width: 20%;
+        height: 60%;
+        margin: 1px;
+        margin-left: 100px;
+        /* border: 1px solid red; */
+        margin-top: 5px;
+    }
+    
+    .div2 {
+        display: inline-block;
+        width: 20%;
+        height: 60%;
+        margin: 1px;
+        /* border: 1px solid red; */
+        margin-top: 5px;
+    }
+    
+    .div3 {
+        display: inline-block;
+        width: 20%;
+        height: 60%;
+        margin: 1px;
+        /* border: 1px solid red; */
+    }
+    
+    .div4 {
+        display: inline-block;
+        width: 25%;
+        height: 60%;
+        margin: 1px;
+        /* border: 1px solid red; */
+    }
+    
+    .font4 {
+        text-indent: 0px;
+        font-size: large;
+    }
+    
+    .star {
+        margin-left: 75px;
+        /* border: 1px solid red; */
+    }
+    
+    span {
+        font-size: small;
+        color: green;
+    }
+    
+    h4 {
+        text-align: center;
+    }
+    
+    button {
+        background-color: rgb(38, 159, 19);
+        border: none;
+        color: azure;
+        text-align: center;
+        cursor: pointer;
+        width: 250px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    
+    button:hover {
+        color: blue;
+        background-color: brown;
+    }
