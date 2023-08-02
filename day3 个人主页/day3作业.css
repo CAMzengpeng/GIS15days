@@ -1,0 +1,140 @@
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    
+    li {
+        display: inline-block;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #4f52e8;
+    }
+    
+    a:hover {
+        color: #a823a1
+    }
+    
+    .span {
+        width: 120px;
+        text-align: center;
+        line-height: 80px;
+        font-size: 20px;
+        color: #FFF;
+    }
+    
+    #page {
+        width: 100vw;
+        height: 100vh;
+        background-image: url("./image/background.jpeg");
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    .second {
+        display: grid;
+        background-color: #fff;
+        height: 80vh;
+        width: 80vw;
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 42.5% 52.5% 5%;
+        grid-template-areas: "part1 part1" "part2 part2" "part3 part3";
+    }
+    
+    .nav {
+        grid-area: part1;
+    }
+    
+    .main {
+        grid-area: part2;
+        display: grid;
+        grid-template-columns: 30% 1fr 69%;
+        grid-template-areas: "a b c";
+    }
+    
+    .information {
+        grid-area: a;
+    }
+    
+    .show {
+        grid-area: c;
+    }
+    
+    .footer {
+        grid-area: part3;
+        background-color: rgb(10, 81, 81);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .head {
+        background-color: rgb(10, 81, 81);
+        display: flex;
+        justify-content: space-around;
+        height: 40px;
+        line-height: 40px;
+        font-size: 25px;
+    }
+    
+    .banner {
+        margin-top: 5px;
+        left: 5px;
+        position: relative;
+    }
+    
+    .touxiang {
+        border-radius: 50%;
+        left: 30%;
+        position: relative;
+    }
+    
+    .left-title {
+        width: 100%;
+        line-height: 38px;
+        text-indent: 1em;
+        background-color: #53A3B9;
+        color: #FFF;
+        font-size: 18px;
+        margin-bottom: 20px;
+        background-color: rgb(10, 81, 81);
+        font-size: 20px;
+    }
+    
+    .right-title {
+        width: 100%;
+        line-height: 38px;
+        text-indent: 1em;
+        background-color: #53A3B9;
+        color: #FFF;
+        font-size: 18px;
+        margin-bottom: 20px;
+        background-color: rgb(10, 81, 81);
+        font-size: 20px;
+    }
+    
+    #left-show {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .name,
+    .email,
+    .hobby,
+    .phone {
+        color: blue;
+        font-size: large;
+        left: 10%;
+        position: relative;
+    }
+    
+    .write {
+        font-size: small;
+        opacity: 0.5;
+        height: 300px;
+    }
