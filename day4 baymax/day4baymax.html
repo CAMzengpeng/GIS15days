@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./day4大白.css">
+</head>
+
+<body>
+
+    <div class="baymax">
+        <div class="head">
+            <div class="ear-left"></div>
+            <div class="ear-right"></div>
+            <div class="face">
+                <div class="eye-left"></div>
+                <div class="line"></div>
+                <div class="eye-right"></div>
+            </div>
+        </div>
+        <div class="body">
+        </div>
+        <button class="logo" onclick="a()"></button>
+        <div class="belly"></div>
+        <div class="left-hand"></div>
+        <div class="right-hand"></div>
+        <div class="left-hand-2"></div>
+        <div class="right-hand-2"></div>
+        <div class="left-finger-1"></div>
+        <div class="left-finger-2"></div>
+        <div class="right-finger-1"></div>
+        <div class="right-finger-2"></div>
+        <div class="left-leg"></div>
+        <div class="right-leg"></div>
+        <div id="jiuwo">
+            <div id="jiuwo-left"></div>
+            <div id="jiuwo-right"></div>
+        </div>
+
+    </div>
+</body>
+<script>
+    alert("请按下大白的胸前按钮")
+    var jiuwol = document.getElementById('jiuwo-left');
+    var jiuwor = document.getElementById('jiuwo-right');
+
+
+    function a() {
+        jiuwol.style.backgroundColor = "red"
+        jiuwor.style.backgroundColor = "red"
+        setTimeout(function() {
+            jiuwol.style.backgroundColor = "#fff"
+            jiuwor.style.backgroundColor = "#fff"
+        }, 1000)
+    }
+</script>
+
+</html>
